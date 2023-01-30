@@ -5,10 +5,10 @@ import "forge-std/Test.sol";
 import "./WithdrawableImpl.sol";
 
 contract WithdrawableTest is Test {
-    WithDrawableImpl impl;
+    WithdrawableImpl impl;
 
     function setUp() public {
-        impl = new WithDrawableImpl();
+        impl = new WithdrawableImpl();
     }
 
     function testWithdraw() public {
